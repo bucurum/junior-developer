@@ -20,7 +20,14 @@ public class CharacterController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            HandleMovement(Vector3.right);
+            if (CheckMovableTile(Vector3.right))
+            {
+                HandleMovement(Vector3.right);
+            }
+            else
+            {
+                Debug.Log("Fail");
+            }
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
@@ -70,6 +77,15 @@ public class CharacterController : MonoBehaviour
 
         // TODO: Check if it is possible
         moveTween = transform.DOMoveY(transform.position.y - 3f, fallDuration).SetEase(Ease.InSine);
+    }
+
+    private bool CheckMovableTile(Vector3 direction)
+    {
+        Vector3 rayPos = transform.position + direction + Vector3.up * 0.5f;
+
+        RaycastHit2D hit = Physics2D.Raycast(rayPos, rayPos, 2f);
+
+        return hit.transform != null && hit.collider.CompareTag("Movable");
     }
 
     private bool IsMoving()

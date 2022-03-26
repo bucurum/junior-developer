@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7095890299235278809}
   - component: {fileID: 7095890299235278808}
   - component: {fileID: 7095890299235278811}
+  - component: {fileID: 7580536783309373292}
   m_Layer: 6
   m_Name: SpriteRenderer
-  m_TagString: Untagged
+  m_TagString: Movable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +43,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -99,6 +100,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7580536783309373292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095890299235278814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef4137cbd1dd40dc8ecbd2451400ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onTriggerEnter2D:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionEnter2D:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7095890299768771682
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,9 +127,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7095890299768771997}
+  - component: {fileID: 2748761465128485661}
   m_Layer: 6
   m_Name: MovableTile
-  m_TagString: Untagged
+  m_TagString: Movable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,3 +150,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2748761465128485661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095890299768771682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30201420f39443e8a10cb3dbdc2d89a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
