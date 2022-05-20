@@ -2,6 +2,16 @@ using UnityEngine;
 
 public class Movable : MonoBehaviour
 {
+    [SerializeField] private int order;
+
+    public int Order
+    {
+        get
+        {
+            return order;
+        }
+    }
+
     private Trigger trigger;
 
     private void Awake()
@@ -12,8 +22,6 @@ public class Movable : MonoBehaviour
 
     private void OnChildTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Collision detected");
-
         if (other.CompareTag("Player"))
         {
             DestroyTile();
