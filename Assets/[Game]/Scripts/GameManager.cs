@@ -37,6 +37,12 @@ public class GameManager : MonoBehaviour
         Instantiate(levels[DataManager.Instance.Level - 1]);
     }
 
+    public void ResetGame()
+    {
+        DataManager.Instance.SetLevel(1);
+        LoadScene();
+    }
+
     private void LoadScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
