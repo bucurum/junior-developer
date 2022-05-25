@@ -1,13 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum MovementType {
-    MoveRight,
-    MoveLeft,
-    Jump,
-    GoDown
-}
-
 public class MovableManager : MonoBehaviour
 {
     [SerializeField] private List<MovementType> movementList = new List<MovementType>();
@@ -34,7 +27,7 @@ public class MovableManager : MonoBehaviour
 
     private void Start()
     {
-        GenerateText();
+        //GenerateText();
     }
 
     private void InstantiateMovementStack()

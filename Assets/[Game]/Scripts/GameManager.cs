@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private int levelCount;
+
     private bool isGameActive;
     public bool IsGameActive => isGameActive;
 
@@ -12,7 +14,6 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public UnityEvent hidePopupEvent = new UnityEvent();
 
     public static GameManager Instance { get; private set; }
-    private int levelCount;
 
     private void Awake()
     {
@@ -27,14 +28,8 @@ public class GameManager : MonoBehaviour
 
         isGameActive = true;
 
-        // Load all levels to an array.
-        GameObject[] levels = Resources.LoadAll<GameObject>("Levels");
-
-        // Set total level count.
-        levelCount = levels.Length;
-
         // Instantiate level.
-        Instantiate(levels[DataManager.Instance.Level - 1]);
+        Instantiate(Resources.Load<GameObject>("Levels/Level-" + DataManager.Instance.Level));
     }
 
     public void ResetGame()
@@ -46,6 +41,11 @@ public class GameManager : MonoBehaviour
     private void LoadScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void LoadLevelGalleryScene()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void EndGame(bool success)
