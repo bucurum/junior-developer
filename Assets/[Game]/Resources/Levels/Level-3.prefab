@@ -165,15 +165,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.b
-      value: 0.39607844
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.g
-      value: 0.27058825
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.r
-      value: 0.7490196
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198756452387195882, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_RootOrder
@@ -239,15 +239,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.b
-      value: 0.39607844
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.g
-      value: 0.27058825
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.r
-      value: 0.7490196
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198756452387195882, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_RootOrder
@@ -313,15 +313,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.b
-      value: 0.39607844
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.g
-      value: 0.27058825
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.r
-      value: 0.7490196
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198756452387195882, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_RootOrder
@@ -387,15 +387,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.b
-      value: 0.39607844
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.g
-      value: 0.27058825
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 198756451473944986, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_Color.r
-      value: 0.7490196
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198756452387195882, guid: 8be9d8ec923a848518cdca3a501e6fcc, type: 3}
       propertyPath: m_RootOrder
@@ -461,8 +461,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 582671329292650272, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
       propertyPath: m_text
-      value: Instructions
+      value: "Yukar\u0131();"
       objectReference: {fileID: 0}
+    - target: {fileID: 582671329292650272, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f4500426e5cac344cb3b7e84b5cd3cb5, type: 2}
+    - target: {fileID: 582671329292650272, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1148296663367888675, guid: f4500426e5cac344cb3b7e84b5cd3cb5, type: 2}
     - target: {fileID: 582671329639241933, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
       propertyPath: m_Pivot.x
       value: 0

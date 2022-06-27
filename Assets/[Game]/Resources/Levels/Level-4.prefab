@@ -163,6 +163,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7568776154961525690}
     m_Modifications:
+    - target: {fileID: 582671329292650272, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
+      propertyPath: m_text
+      value: "A\u015Fa\u011F\u0131();"
+      objectReference: {fileID: 0}
+    - target: {fileID: 582671329292650272, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f4500426e5cac344cb3b7e84b5cd3cb5, type: 2}
+    - target: {fileID: 582671329292650272, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1148296663367888675, guid: f4500426e5cac344cb3b7e84b5cd3cb5, type: 2}
     - target: {fileID: 582671329639241933, guid: 3d85ece3dc1d64fc99253acd8c381465, type: 3}
       propertyPath: m_Pivot.x
       value: 0

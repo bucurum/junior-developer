@@ -302,7 +302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6674287, y: 0.5, z: -10}
+  m_LocalPosition: {x: 2.6666667, y: 0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1520362594}
@@ -634,7 +634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 23.900024, y: -17.400024}
+  m_AnchoredPosition: {x: 23.899902, y: -17.400024}
   m_SizeDelta: {x: 148.165, y: 57.293}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1024314307
@@ -791,7 +791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058579940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6674287, y: 0.5, z: -10}
+  m_LocalPosition: {x: 2.6666667, y: 0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1635738094}
@@ -1607,8 +1607,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Do something...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c9beda8b9e80f41ae9f536fc1e32a28c, type: 2}
-  m_sharedMaterial: {fileID: 2359715123966754548, guid: c9beda8b9e80f41ae9f536fc1e32a28c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 333eb22ecf8ea104097d2012ac33aea8, type: 2}
+  m_sharedMaterial: {fileID: -1860136077096780360, guid: 333eb22ecf8ea104097d2012ac33aea8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2018,7 +2018,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reset Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c9beda8b9e80f41ae9f536fc1e32a28c, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2359715123966754548, guid: c9beda8b9e80f41ae9f536fc1e32a28c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2082,7 +2082,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2144257176
